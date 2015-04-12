@@ -2,6 +2,13 @@ This is a demo project to familiarize new employees with our software developmen
  
 All new employees should demonstrate they are able to follow the steps below by themselves.
 
+Steps
+------------
+1. Install client for GitLab, regardless of git on Linux, GitBash on Windows.
+3. Update a file.
+5. Remove a file.
+7. Resolve conflicts.
+
 下载Git客户端
 
 初始化操作
