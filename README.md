@@ -2,17 +2,6 @@ This is a demo project to familiarize new employees with our software developmen
  
 All new employees should demonstrate they are able to follow the steps below by themselves.
 
-Steps
-------------
-1. Install client for GitLab, regardless of git on Linux, GitBash on Windows.
-2. Ask manager to grant access to join a specific repo, for instance, *crashburn*.
-3. Pull all files from the repo.
-3. Update a file.
-4. Create a new file.
-5. Remove a file.
-6. Create a branch, make some changes and then merge the branch to the master.
-7. Resolve conflicts.
-
 下载Git客户端
 
 初始化操作
