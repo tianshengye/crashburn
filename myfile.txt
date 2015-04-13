@@ -1,2 +1,3 @@
 add: Register a change in an index
+pull: Obtain the content of the remote repository
 commit: Save the status of an index
