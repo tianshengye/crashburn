@@ -59,4 +59,25 @@
     $ git push <remote> : <branch>/<tagname> #删除远端分支或标签
     $ git push -tags #上传所有标签
 
+似集中式版本控制系统的工作流程
+------------	
+1.  $ git checkout <self_branch> #进入自己的本地分支
+2.	$ git pull <remote> <branch> #下载代码及快速合并
+3.	编写代码中
+4.  $ git diff #自我审查代码
+5.  本地测试
+6.	$ git pull <remote> <branch> #下载代码及快速合并
+7.	如有冲突，解决冲突
+8.  本地测试
+9.  $ git commit -m “commit message” #提交所有更新过的文件
+
+10.  $ git checkout <branch> #进入自己的本地稳定分支
+11.	$ git pull <remote> <branch> #下载代码及快速合并
+12. $ git merge <self_branch> #合并分支
+13.	如有冲突，解决冲突
+14. 本地测试
+15. $ git push <remote> <branch> #上传代码及快速合并
+	
+**Remember "All commited code must be working"!!!**
+
 更多请参见随附的github-git-cheat-sheet.pdf
